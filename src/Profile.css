@@ -1,0 +1,29 @@
+.content-desktop {
+  display: block;
+}
+#content-mobile {display: none;}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-items {
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: right;
+  top: 10px; /* Stay at the top */
+}
+
+@media screen and (max-width: 768px) {
+
+.content-desktop {display: none;
+}
+#content-mobile {
+  display: block;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+}
+
+}
