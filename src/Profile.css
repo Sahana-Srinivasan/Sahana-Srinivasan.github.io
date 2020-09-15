@@ -37,6 +37,9 @@ a {
 
 @media screen and (max-width: 1023px) {
 
+  #bio-box {
+    margin-right: 0%;
+  }
 
 .content-desktop {display: none;
 }

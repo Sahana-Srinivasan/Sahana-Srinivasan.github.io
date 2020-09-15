@@ -5,8 +5,36 @@ import theme from './theme';
 import './Profile.css';
 import headshot from './headshot.jpg'
 import Accordion from './Accordion.js'
+import { makeStyles, withStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: '100%',
+  },
+  heading: {
+    fontSize: theme.typography.pxToRem(18),
+    fontWeight: "600",
+    color: '#A51C30',
+  },
+  position: {
+    fontSize: theme.typography.pxToRem(18),
+    fontWeight: theme.typography.fontWeightLight,
+    color: 'black',
+  },
+  text: {
+    fontSize: theme.typography.pxToRem(16),
+    fontWeight: theme.typography.fontWeightRegular,
+
+    color: 'black',
+  }
+}));
 
 function Profile(props) {
+
+  const classes = useStyles();
+
+  
   const subjects = [["Home", "home"], ["Experience", "experience"], ["On Campus", "on-campus"], ["Projects", "projects"]];
   const [activeCategory, setActiveCategory] = useState("Home");
   const cards = 
@@ -65,7 +93,11 @@ function Profile(props) {
               />
                 </div>
                 <div id="bio-box">
-                  Hi, I'm Sahana! a junior at Harvard studying computer science and government. I'm intersted in product management, tech policy, machine learning research, and software engineering. I manage the Harvard Open Data Project, teach theoretical CS, research fairness in machine learning, and bake cookies. 
+                  Hi! I'm a junior at Harvard studying computer science and government. I'm interested in product management, tech policy, machine learning research, and software engineering. I manage the Harvard Open Data Project, teach theoretical CS, research fairness in machine learning, and bake cookies. 
+                  <Typography className={classes.text}>
+                  Hi! I'm a junior at Harvard studying computer science and government. I'm interested in product management, tech policy, machine learning research, and software engineering. I manage the Harvard Open Data Project, teach theoretical CS, research fairness in machine learning, and bake cookies. 
+
+                  </Typography>
                 </div>
               </Grid>
             </div>

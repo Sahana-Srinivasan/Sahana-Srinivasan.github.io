@@ -12,23 +12,33 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
   },
   heading: {
-    fontSize: theme.typography.pxToRem(20),
-    fontWeight: theme.typography.fontWeightMedium,
-    fontColor: 'red',
+    fontSize: theme.typography.pxToRem(18),
+    fontWeight: "600",
+    color: '#A51C30',
   },
+  position: {
+    fontSize: theme.typography.pxToRem(18),
+    fontWeight: theme.typography.fontWeightLight,
+    color: 'black',
+  },
+  text: {
+    fontSize: theme.typography.pxToRem(15),
+    fontWeight: theme.typography.fontWeightRegular,
+
+    color: 'black',
+  }
 }));
 
 const StyledAccordion = withStyles({
   root: {
     background: '#f8f8f8',
-    color: 'black',
     boxShadow: '0 0 0 0',
   },
   label: {
     textTransform: 'capitalize',
   },
   heading: {
-    fontSize: '20',
+    fontSize: '24',
   }
 })(Accordion);
 
@@ -43,7 +53,22 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Microsoft, Product Management and Software Engineering Intern</Typography>
+          <Typography className={classes.heading}>Microsoft </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Product Management and Software Engineering Intern</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography className={classes.text}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+            sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </StyledAccordion>
+      <StyledAccordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography className={classes.heading}>Harvard </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Teaching Fellow</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -58,7 +83,7 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>Harvard</Typography>
+          <Typography className={classes.heading}>Harvard </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Researcher</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -73,22 +98,7 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>Lakkaraju Lab</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </StyledAccordion>
-      <StyledAccordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography className={classes.heading}>Blockstack</Typography>
+          <Typography className={classes.heading}>Blockstack </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Software Engineering Intern</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
