@@ -1,8 +1,27 @@
 .content-desktop {
   display: block;
+  margin-left: 30px;
+  margin-right: 10px;
+  height: 100%;
 }
 #content-mobile {display: none;}
 
+.headshot {
+  max-width: 500px;
+  max-height: auto;
+}
+
+.main {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.buffer {
+  display: none;
+}
+#bio-box {
+  margin-right: 10%;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -13,9 +32,11 @@ a {
   position: sticky;
   text-align: right;
   top: 10px; /* Stay at the top */
+  margin-top: 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
+
 
 .content-desktop {display: none;
 }
