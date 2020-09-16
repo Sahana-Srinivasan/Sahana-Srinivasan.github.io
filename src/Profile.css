@@ -11,6 +11,10 @@
   max-height: auto;
 }
 
+#work-details {
+  max-width: 70%
+}
+
 .main {
   margin-left: 30px;
   margin-right: 30px;
@@ -31,12 +35,15 @@ a {
   position: -webkit-sticky;
   position: sticky;
   text-align: right;
-  top: 10px; /* Stay at the top */
+  top: 100px; /* Stay at the top */
   margin-top: 100px;
 }
 
 @media screen and (max-width: 1023px) {
 
+  #work-details {
+    max-width: 100%
+  }
   #bio-box {
     margin-right: 0%;
   }
