@@ -8,6 +8,7 @@ import Accordion from './Accordion.js'
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Campus from './Campus'
+import Projects from './Projects'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -99,7 +100,11 @@ function Profile(props) {
                   Hi! I'm a junior at Harvard studying computer science and government. I'm interested in product management, tech policy, machine learning research, and software engineering. I manage the Harvard Open Data Project, teach theoretical CS, research fairness in machine learning, and bake cookies. 
                   <br></br>
                   <br></br>
-                  You can find me on GitHub, Linkedin, and the HODP website (in the staff directory I built!)
+                  You can find me on&nbsp;
+                    <a id="social-link" href="https://www.github.com/sahana-srinivasan">GitHub</a>,&nbsp;
+                    <a id="social-link" href="https://www.linkedin.com/in/sahana-srinivasan-009">Linkedin</a>, and the&nbsp;
+                    <a id="social-link" href="https://hodp.org/people/sahana-srinivasan">HODP website&nbsp;</a>
+                    (in the staff directory I built!)
                   </Typography>
                   <br></br>
                 </div>
@@ -131,6 +136,7 @@ function Profile(props) {
                 Projects
               </Styled.h2>
               <Divider />
+              <Projects/>
             </div>
           </div>
           <div className="buffer"></div>

@@ -49,6 +49,10 @@ a {
   display: inline-block;
 }
 
+#social-link {
+  color: #A51C30
+}
+
 .nav-items {
   position: -webkit-sticky;
   position: sticky;
