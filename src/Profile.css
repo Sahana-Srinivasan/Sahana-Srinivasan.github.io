@@ -31,6 +31,24 @@ a {
   color: inherit;
 }
 
+#home {
+  margin-top: 100px;
+}
+
+#club-logo {
+  max-width: 40px;
+  max-height: auto;
+  display: inline-block;
+}
+
+#club-space {
+  display: inline-block;
+}
+
+#club-name {
+  display: inline-block;
+}
+
 .nav-items {
   position: -webkit-sticky;
   position: sticky;
@@ -40,6 +58,10 @@ a {
 }
 
 @media screen and (max-width: 1023px) {
+
+  #home {
+    margin-top: 10px;
+  }
 
   #work-details {
     max-width: 100%

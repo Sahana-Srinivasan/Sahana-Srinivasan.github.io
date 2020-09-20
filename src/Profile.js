@@ -80,18 +80,16 @@ function Profile(props) {
             </div>
           </div>
           <div className="main">
-            <br></br>
-            <br></br>
             <div id="home">
               <Grid gap={4} columns={[1, "1fr 1fr", "1fr 1fr", "3fr 7fr"]}>
                 <div className="headshot">
                 <br></br>
-                <Image 
-                  src={headshot}
-                  sx={{
-                      //borderRadius: "50%",
-                  }}
-              />
+                  <Image 
+                    src={headshot}
+                    sx={{
+                        //borderRadius: "50%",
+                    }}
+                  />
                 </div>
                 <div id="bio-box">
                   <Styled.h1>
