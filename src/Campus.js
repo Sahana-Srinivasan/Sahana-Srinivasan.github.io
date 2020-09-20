@@ -45,10 +45,14 @@ export default function Campus() {
        <br></br>
        <Grid gap={4} columns={[1, "1fr 1fr", "1fr 1fr", "3fr 7fr"]}>
         <div>
-          <div id="club-logo"><Image src={hodp}/></div>
+          <div id="club-logo">
+            <a href="https://hodp.org">
+              <Image src={hodp}/>
+            </a>
+          </div>
           <div id="club-space">&nbsp;&nbsp;&nbsp;&nbsp;</div>
           <div id="club-name">
-            <Typography className={classes.heading}>Harvard Open Data Project</Typography>
+            <Typography className={classes.heading}><a href="https://hodp.org">Harvard Open Data Project</a></Typography>
             <Typography className={classes.date}>
               Managing Editor
             </Typography>
@@ -64,10 +68,14 @@ export default function Campus() {
        <br></br>
        <Grid gap={4} columns={[1, "1fr 1fr", "1fr 1fr", "3fr 7fr"]}>
         <div>
-          <div id="club-logo"><Image src={wics}/></div>
+          <div id="club-logo">
+            <a href="https://harvardwics.com">
+              <Image src={wics}/>
+            </a>
+          </div>
           <div id="club-space">&nbsp;&nbsp;&nbsp;&nbsp;</div>
           <div id="club-name">
-            <Typography className={classes.heading}>Harvard Women in CS</Typography>
+            <Typography className={classes.heading}><a href="https://harvardwics.com">Harvard Women in CS</a></Typography>
             <Typography className={classes.date}>
               Project Manager
             </Typography>
@@ -86,10 +94,14 @@ export default function Campus() {
           <Grid gap={4} columns={[1]}>
             
           </Grid>
-          <div id="club-logo"><Image src={hccg}/></div>
+          <div id="club-logo">
+            <a href="https://harvardconsulting.org">
+              <Image src={hccg}/>
+            </a>
+          </div>
           <div id="club-space">&nbsp;&nbsp;&nbsp;&nbsp;</div>
           <div id="club-name">
-            <Typography className={classes.heading}>Harvard Consulting Group</Typography>
+            <Typography className={classes.heading}><a href="https://harvardconsulting.org">Harvard Consulting Group</a></Typography>
             <Typography className={classes.date}>
               Case Team Leader
             </Typography>

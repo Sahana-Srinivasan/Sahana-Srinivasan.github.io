@@ -3,11 +3,12 @@ import { Grid, Image, Card, Text } from 'theme-ui';
 import './Profile.css'
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
-import wics from './wics.png'
-import hodp from './hodp.png'
-import hccg from './hccg.png'
-
-
+import hodp2 from './hodp-website.png'
+import vm from './vm-site.png'
+import research from './research.png'
+import hodp3 from './hodp-article.png'
+import cm from './covid-mapper.png'
+import journ from './journ.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -43,30 +44,57 @@ export default function Projects() {
 
     <div>
        <br></br>
-       <Grid gap={4} columns={[1, "1fr 1fr", "1fr 1fr 1fr"]}>
+       <Grid gap={1} columns={[1, "1fr 1fr"]}>
         <Card
           sx={{
-            maxWidth: 256,
+            maxWidth: 500,
           }}>
-          <Image src={wics} />
+          <Image src={vm} />
           <Text>
             Card
           </Text>
         </Card>
         <Card
           sx={{
-            maxWidth: 256,
+            maxWidth: 500,
           }}>
-          <Image src={hodp} />
+          <Image src={cm} />
           <Text>
             Card
           </Text>
         </Card>
         <Card
           sx={{
-            maxWidth: 256,
+            maxWidth: 500,
           }}>
-          <Image src={hccg} />
+          <Image src={hodp2} />
+          <Text>
+            Card
+          </Text>
+        </Card>
+        <Card
+          sx={{
+            maxWidth: 500,
+          }}>
+          <Image src={research} />
+          <Text>
+            Card
+          </Text>
+        </Card>
+        <Card
+          sx={{
+            maxWidth: 500,
+          }}>
+          <Image src={hodp3} />
+          <Text>
+            Card
+          </Text>
+        </Card>
+        <Card
+          sx={{
+            maxWidth: 500,
+          }}>
+          <Image src={journ} />
           <Text>
             Card
           </Text>

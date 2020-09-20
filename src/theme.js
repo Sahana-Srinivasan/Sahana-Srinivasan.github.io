@@ -52,10 +52,11 @@ export default {
       },
     },
     primary: {
-      padding: 2,
+      padding: 20,
       borderRadius: 4,
       boxShadow: '0 0 8px rgba(0, 0, 0, 0.125)',
       borderColor: '#A51C30',
+      margin: 20,
     },
     compact: {
       padding: 1,
