@@ -110,7 +110,7 @@ function Profile(props) {
                   <Typography className={classes.names}>
                     Sahana Srinivasan
                   </Typography>
-
+                  <br></br>
                   <Typography className={classes.text}>
                   Hi! I'm a junior at Harvard studying computer science and government. I'm interested in product management, tech policy, machine learning research, and software engineering. 
                   <br></br>
