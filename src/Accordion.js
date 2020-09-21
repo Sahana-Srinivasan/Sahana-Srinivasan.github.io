@@ -99,7 +99,7 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Microsoft </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Product Management and Software Engineering Intern</Typography>
+          <Typography className={classes.heading}>Microsoft </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Program Management and Software Engineering Intern</Typography>
         </NewAccordionSummary>
         <div id="work-details">
           <StyledDetails>
