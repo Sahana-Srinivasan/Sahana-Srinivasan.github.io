@@ -41,7 +41,7 @@ function Profile(props) {
   const classes = useStyles();
 
   
-  const subjects = [["Home", "home"], ["Experience", "experience"], ["On Campus", "on-campus"], ["Projects", "projects"]];
+  const subjects = [["Home", "home"], ["Experience", "experience"], ["On Campus", "on-campus"], ["Projects", "projects"], ["Interests", "interests"]];
   const [activeCategory, setActiveCategory] = useState("Home");
   const cards = 
       subjects.map((subject) => {
@@ -93,9 +93,6 @@ function Profile(props) {
                 <br></br>
                   <Image 
                     src={headshot}
-                    sx={{
-                        //borderRadius: "50%",
-                    }}
                   />
                 </div>
                 <div id="bio-box">
@@ -103,14 +100,16 @@ function Profile(props) {
                     Sahana Srinivasan
                   </Styled.h1>
                   <Typography className={classes.text}>
-                  Hi! I'm a junior at Harvard studying computer science and government. I'm interested in product management, tech policy, machine learning research, and software engineering. I manage the Harvard Open Data Project, teach theoretical CS, research fairness in machine learning, and bake cookies. 
+                  Hi! I'm a junior at Harvard studying computer science and government. I'm interested in product management, tech policy, machine learning research, and software engineering. 
+                  <br></br>
+                  <br></br>
+                  I manage the Harvard Open Data Project, teach theoretical CS, research fairness in machine learning, and bake cookies. 
                   <br></br>
                   <br></br>
                   You can find me on&nbsp;
                     <a id="social-link" href="https://www.github.com/sahana-srinivasan">GitHub</a>,&nbsp;
                     <a id="social-link" href="https://www.linkedin.com/in/sahana-srinivasan-009">Linkedin</a>, and the&nbsp;
-                    <a id="social-link" href="https://hodp.org/people/sahana-srinivasan">HODP website&nbsp;</a>
-                    (in the staff directory I built!)
+                    <a id="social-link" href="https://hodp.org/people/sahana-srinivasan">HODP website</a>.
                   </Typography>
                   <br></br>
                 </div>
@@ -143,9 +142,28 @@ function Profile(props) {
               <Divider />
               <Projects/>
             </div>
+            <div id="interests">
+              <Styled.h2>
+                Interests
+              </Styled.h2>
+              <Divider />
+              <Typography className={classes.position}>
+                Here are some other things I enjoy! Feel free to reach out over them, particularly if you have a favorite cookie recipe.
+                <ul>
+                  <li>Baking chocolate chip cookies</li>
+                  <li>Playing online pictionary, codenames, Set, and Hanabi</li>
+                  <li>Writing short fiction</li>
+                  <li>Open data and journalism</li>
+                  <li>Puzzles</li> 
+                  <li>Stand-up comedy</li>
+                  <li>The NYT mini crossword</li>
+                </ul>
+                <br></br>
+                <br></br>
+              </Typography>
+            </div>
           </div>
           <div className="buffer"></div>
-
       </Grid>
     </div>
     </Container>
