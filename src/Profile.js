@@ -24,10 +24,14 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: theme.typography.fontWeightLight,
     color: 'black',
   },
+  navHighlight: {
+    fontSize: theme.typography.pxToRem(18),
+    fontWeight: "600",
+    color: 'white',
+  },
   text: {
     fontSize: theme.typography.pxToRem(20),
     fontWeight: theme.typography.fontWeightLight,
-
     color: 'black',
   }
 }));
@@ -60,7 +64,9 @@ function Profile(props) {
                   }}
                   >
                   <div>
-                    {subject[0]}
+                    <Typography className={included ? classes.navHighlight : classes.position }>
+                      {subject[0]}
+                    </Typography>
                   </div>
               </Card>
             </a>
@@ -116,11 +122,10 @@ function Profile(props) {
                 Work Experience
               </Styled.h2>
               <Divider />
-              <div>
+              <div id="experience-content">
                 <Accordion/>
               </div>
               <br></br>
-              
             </div>
             <div id="on-campus">
             <br></br>

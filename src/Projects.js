@@ -9,13 +9,14 @@ import research from './research.png'
 import hodp3 from './hodp-article.png'
 import cm from './covid-mapper.png'
 import journ from './journ.png'
+import thissite from './this-site.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
   },
   heading: {
-    fontSize: theme.typography.pxToRem(18),
+    fontSize: theme.typography.pxToRem(16),
     fontWeight: "600",
     color: '#A51C30',
   },
@@ -34,6 +35,16 @@ const useStyles = makeStyles((theme) => ({
     fontSize: theme.typography.pxToRem(16),
     fontWeight: theme.typography.fontWeightLight,
     color: 'black',
+  },
+  tech: {
+    fontSize: theme.typography.pxToRem(16),
+    fontWeight: "400",
+    color: 'black',
+  },
+  links: {
+    fontSize: theme.typography.pxToRem(16),
+    fontWeight: "400",
+    color: 'black',
   }
 }));
 
@@ -49,54 +60,156 @@ export default function Projects() {
           sx={{
             maxWidth: 500,
           }}>
-          <Image src={vm} />
+          <a href="https://the-voting-methods.web.app"><Image src={vm} /></a>
           <Text>
-            Card
+            <div className="project-header">
+              <Typography className={classes.heading} id="project-name">
+                <a href="https://the-voting-methods.web.app">Voting Methods Simulator&nbsp;&nbsp;</a>
+              </Typography>
+              <Typography className={classes.date} id="project-date">
+                2020
+              </Typography>
+            </div>
+            <Typography className={classes.date}>
+              Visualizes effects of voting methods on election outomes and interactively explains types of voting methods. Presented to 10 political strategists and activists. Site used for educational purposes by reform groups in 2020 election.  
+            </Typography>
+            <Typography className={classes.tech}>
+             React, D3.
+            </Typography>
+            <Typography className={classes.links}>
+              <a href="https://the-voting-methods.web.app">Live site. </a>
+              <a href="https://github.com/mwjkwan/voting-methods">Source code.</a>
+            </Typography>
           </Text>
         </Card>
         <Card
           sx={{
             maxWidth: 500,
           }}>
-          <Image src={cm} />
+          <a href="https://github.com/mattweidman/covid-mapper"><Image src={cm}/></a>
           <Text>
-            Card
+            <div className="project-header">
+              <Typography className={classes.heading} id="project-name">
+                <a href="https://github.com/mattweidman/covid-mapper">Covid-19 Map Generator&nbsp;&nbsp;</a>
+              </Typography>
+              <Typography className={classes.date} id="project-date">
+                2020
+              </Typography>
+            </div>
+            <Typography className={classes.date}>
+                Creates custom COVID-19 data visualizations in D3 from user-inputted mathematical expressions. Produces time graphs and maps, parses terms and math syntax natively. Voted Top 3 in category and org in Microsoft’s 2020 Global Hackathon.
+            </Typography>
+            <Typography className={classes.tech}>
+              Javascript, D3. 
+            </Typography>
+            <Typography className={classes.links}>
+              <a href="https://github.com/mattweidman/covid-mapper">Source code. </a>
+              Live site in progress.
+            </Typography>
           </Text>
         </Card>
         <Card
           sx={{
             maxWidth: 500,
           }}>
-          <Image src={hodp2} />
+          <a href="https://hodp.org"><Image src={hodp2} /></a>
           <Text>
-            Card
+            <div className="project-header">
+              <Typography className={classes.heading} id="project-name">
+                <a href="https://hodp.org">Harvard Open Data Project Website&nbsp;&nbsp;</a>
+              </Typography>
+              <Typography className={classes.date} id="project-date">
+                2020
+              </Typography>
+            </div>
+            <Typography className={classes.date}>
+              Natively hosts articles, projects, and staff directory. Helped scope project features, evaluated headless CMSes, and implemented staff directory, profiles, and bios from scratch.
+            </Typography>
+            <Typography className={classes.tech}>
+                React, GraphQL, Sanity CMS.
+            </Typography>
+            <Typography className={classes.links}>
+              <a href="https://hodp.org/people">Live site. </a>
+              <a href="https://github.com/HarvardOpenData/HarvardOpenData.github.io">Source code.</a>
+            </Typography>
           </Text>
         </Card>
         <Card
           sx={{
             maxWidth: 500,
           }}>
-          <Image src={research} />
+          <a href="https://github.com/Sahana-Srinivasan/mri-ventricle-segmentation"><Image src={research} /></a>
           <Text>
-            Card
+            <div className="project-header">
+              <Typography className={classes.heading} id="project-name">
+                <a href="https://github.com/Sahana-Srinivasan/mri-ventricle-segmentation">Image Segmentation Research&nbsp;&nbsp;</a>
+              </Typography>
+              <Typography className={classes.date} id="project-date">
+                2016-2017
+              </Typography>
+            </div>
+            <Typography className={classes.date}>
+              Used deep learning to develop novel pipeline for segmeneting lateral ventricles in 3D brain MRIs and potentially melanomatous skin lesions in lay images. Wrote two 20-page papers. 2nd place in regional science fair. Siemens Competition semifinalist (top 300 in nation).
+            </Typography>
+            <Typography className={classes.tech}>
+              Python, Keras, scikit-image, scikit-learn.
+            </Typography>
+            <Typography className={classes.links}>
+              <a href="https://github.com/aarun/mel">Skin lesion source code. </a>
+              <a href="https://github.com/Sahana-Srinivasan/mri-ventricle-segmentation">MRI source code.</a>
+            </Typography>
           </Text>
         </Card>
         <Card
           sx={{
             maxWidth: 500,
           }}>
-          <Image src={hodp3} />
+            <a href="https://www.hodp.org/people/sahana-srinivasan/"><Image src={hodp3} /></a>
           <Text>
-            Card
+            <div className="project-header">
+              <Typography className={classes.heading} id="project-name">
+                <a href="https://www.hodp.org/people/sahana-srinivasan/">Data Journalism Articles&nbsp;&nbsp;</a>
+              </Typography>
+              <Typography className={classes.date} id="project-date">
+                2019-2020
+              </Typography>
+            </div>
+            <Typography className={classes.date}>
+              Reported on <a id="social-link" href="https://www.hodp.org/project/what-will-harvard-students-do-this-fall">student needs </a>
+              during COVID-19, campus 
+              <a id="social-link" href="https://www.hodp.org/project/harvard-student-opinion-on-the-second-democratic-debate"> political opinion, </a>
+              and the <a id="social-link" href="https://www.hodp.org/project/what-s-almost-left-unsaid-an-analysis-of-harvard-confessions">average sentiment </a>of our school confessions page. Re-reported by the 
+              <a id="social-link" href="https://www.thecrimson.com/article/2020/7/14/hodp-fall-semester-survey/"> Crimson </a> and received 10k+ views.
+            </Typography>
+            <Typography className={classes.tech}>
+              R, ggplot, Python.
+            </Typography>
+            <Typography className={classes.links}>
+              <a href="https://www.hodp.org/people/sahana-srinivasan/">Articles. </a>
+              <a href="https://github.com/TheKeveloper/HODP-Fall-2020-Analysis">Analysis source code.</a>
+            </Typography>
           </Text>
         </Card>
         <Card
           sx={{
             maxWidth: 500,
           }}>
-          <Image src={journ} />
+          <a href="https://github.com/Sahana-Srinivasan/Sahana-Srinivasan.github.io"><Image src={thissite} /></a>
           <Text>
-            Card
+            <div className="project-header">
+              <Typography className={classes.heading} id="project-name">
+                <a href="https://github.com/Sahana-Srinivasan/Sahana-Srinivasan.github.io">This Personal Website&nbsp;&nbsp;</a>
+              </Typography>
+              <Typography className={classes.date} id="project-date">
+                2020
+              </Typography>
+            </div>
+            <Typography className={classes.date}>
+              Built from scratch in React. 
+            </Typography>
+            <Typography className={classes.links}>
+              <a href="https://github.com/Sahana-Srinivasan/Sahana-Srinivasan.github.io">Source code.</a>
+            </Typography>
           </Text>
         </Card>
       </Grid>

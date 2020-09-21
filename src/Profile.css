@@ -12,7 +12,11 @@
 }
 
 #work-details {
-  max-width: 70%
+  max-width: 95%
+}
+
+#experience-content {
+  max-width: 75%
 }
 
 .main {
@@ -61,6 +65,15 @@ a {
   margin-top: 100px;
 }
 
+#project-name {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#project-date {
+  display: inline-block;
+}
+
 @media screen and (max-width: 1023px) {
 
   #home {
@@ -70,6 +83,11 @@ a {
   #work-details {
     max-width: 100%
   }
+
+  #experience-content {
+    max-width: 100%
+  }
+
   #bio-box {
     margin-right: 0%;
   }
