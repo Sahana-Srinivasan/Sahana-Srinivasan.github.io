@@ -74,11 +74,16 @@ export default function Projects() {
               Visualizes effects of voting methods on election outomes and interactively explains types of voting methods. Presented to 10 political strategists and activists. Site used for educational purposes by reform groups in 2020 election.  
             </Typography>
             <Typography className={classes.tech}>
-             React, D3.
+             <button className="project-tech">
+               React
+             </button>&nbsp;
+             <button className="project-tech">
+               D3
+             </button>
             </Typography>
             <Typography className={classes.links}>
-              <a href="https://the-voting-methods.web.app">Live site. </a>
-              <a href="https://github.com/mwjkwan/voting-methods">Source code.</a>
+              <a className="project-link" href="https://the-voting-methods.web.app">Live site</a>&nbsp;
+              <a className="project-link" href="https://github.com/mwjkwan/voting-methods">Source code</a>
             </Typography>
           </Text>
         </Card>
@@ -100,11 +105,16 @@ export default function Projects() {
                 Creates custom COVID-19 data visualizations in D3 from user-inputted mathematical expressions. Produces time graphs and maps, parses terms and math syntax natively. Voted Top 3 in category and org in Microsoft’s 2020 Global Hackathon.
             </Typography>
             <Typography className={classes.tech}>
-              Javascript, D3. 
+              <button className="project-tech">
+                Javascript
+              </button>&nbsp;
+              <button className="project-tech">
+                D3
+              </button>
             </Typography>
             <Typography className={classes.links}>
-              <a href="https://github.com/mattweidman/covid-mapper">Source code. </a>
-              Live site in progress.
+              <a className="project-link" href="https://github.com/mattweidman/covid-mapper">Source code</a>&nbsp;
+              <a className="project-link">Live site in progress</a>
             </Typography>
           </Text>
         </Card>
@@ -123,14 +133,22 @@ export default function Projects() {
               </Typography>
             </div>
             <Typography className={classes.date}>
-              Natively hosts articles, projects, and staff directory. Helped scope project features, evaluated headless CMSes, and implemented staff directory, profiles, and bios from scratch.
+              Site that natively hosts projects and a staff directory. Helped scope project features; evaluated headless CMSes; and implemented staff directory, profiles, and bios from scratch.
             </Typography>
             <Typography className={classes.tech}>
-                React, GraphQL, Sanity CMS.
+              <button className="project-tech">
+               React
+              </button>&nbsp;
+              <button className="project-tech">
+               GraphQL
+              </button>&nbsp;
+              <button className="project-tech">
+               Sanity CMS
+              </button>
             </Typography>
             <Typography className={classes.links}>
-              <a href="https://hodp.org/people">Live site. </a>
-              <a href="https://github.com/HarvardOpenData/HarvardOpenData.github.io">Source code.</a>
+              <a className="project-link" href="https://hodp.org/people">Live site</a>&nbsp;
+              <a className="project-link" href="https://github.com/HarvardOpenData/HarvardOpenData.github.io">Source code</a>
             </Typography>
           </Text>
         </Card>
@@ -152,11 +170,22 @@ export default function Projects() {
               Used deep learning to develop novel pipeline for segmeneting lateral ventricles in 3D brain MRIs and potentially melanomatous skin lesions in lay images. Wrote two 20-page papers. 2nd place in regional science fair. Siemens Competition semifinalist (top 300 in nation).
             </Typography>
             <Typography className={classes.tech}>
-              Python, Keras, scikit-image, scikit-learn.
-            </Typography>
+                <button className="project-tech">
+                Python
+                </button>&nbsp;
+                <button className="project-tech">
+                Keras
+                </button>&nbsp;
+                <button className="project-tech">
+                Scikit-learn
+                </button>&nbsp;
+                <button className="project-tech">
+                Scikit-image
+                </button>
+            </Typography> 
             <Typography className={classes.links}>
-              <a href="https://github.com/aarun/mel">Skin lesion source code. </a>
-              <a href="https://github.com/Sahana-Srinivasan/mri-ventricle-segmentation">MRI source code.</a>
+              <a className="project-link" href="https://github.com/aarun/mel">Skin lesion source code</a>&nbsp;
+              <a className="project-link" href="https://github.com/Sahana-Srinivasan/mri-ventricle-segmentation">MRI source code</a>
             </Typography>
           </Text>
         </Card>
@@ -182,11 +211,19 @@ export default function Projects() {
               <a id="social-link" href="https://www.thecrimson.com/article/2020/7/14/hodp-fall-semester-survey/"> Crimson </a> and received 10k+ views.
             </Typography>
             <Typography className={classes.tech}>
-              R, ggplot, Python.
+              <button className="project-tech">
+               R
+              </button>&nbsp;
+              <button className="project-tech">
+               Python
+              </button>&nbsp;
+              <button className="project-tech">
+               ggplot
+              </button>
             </Typography>
             <Typography className={classes.links}>
-              <a href="https://www.hodp.org/people/sahana-srinivasan/">Articles. </a>
-              <a href="https://github.com/TheKeveloper/HODP-Fall-2020-Analysis">Analysis source code.</a>
+              <a className="project-link" href="https://www.hodp.org/people/sahana-srinivasan/">Articles</a>&nbsp;
+              <a className="project-link" href="https://github.com/TheKeveloper/HODP-Fall-2020-Analysis">Analysis source code</a>
             </Typography>
           </Text>
         </Card>
@@ -208,7 +245,7 @@ export default function Projects() {
               Built from scratch in React. 
             </Typography>
             <Typography className={classes.links}>
-              <a href="https://github.com/Sahana-Srinivasan/Sahana-Srinivasan.github.io">Source code.</a>
+              <a className="project-link" href="https://github.com/Sahana-Srinivasan/Sahana-Srinivasan.github.io">Source code</a>
             </Typography>
           </Text>
         </Card>

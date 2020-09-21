@@ -118,10 +118,11 @@ function Profile(props) {
                   I manage the Harvard Open Data Project, teach theoretical CS, research fairness in machine learning, and bake cookies. 
                   <br></br>
                   <br></br>
-                  You can find me on&nbsp;
+                  Find me on&nbsp;
                     <a id="social-link" href="https://www.github.com/sahana-srinivasan">GitHub</a>,&nbsp;
                     <a id="social-link" href="https://www.linkedin.com/in/sahana-srinivasan-009">Linkedin</a>, and the&nbsp;
-                    <a id="social-link" href="https://hodp.org/people/sahana-srinivasan">HODP website</a>.
+                    <a id="social-link" href="https://hodp.org/people/sahana-srinivasan">HODP website</a>, or by&nbsp;
+                    <a id="social-link" href="mailto:sahanasrinivasan@college.harvard.edu">email</a>.
                   </Typography>
                   <br></br>
                 </div>
@@ -158,7 +159,7 @@ function Profile(props) {
             <br></br>
               <div className="section-title">
                 <Typography className={classes.section}>
-                  Projects
+                  Selected Projects
                 </Typography>
               </div>
               <br></br>
@@ -174,12 +175,10 @@ function Profile(props) {
               </div>
               <br></br>
               <Typography className={classes.position}>
-                Here are some other things I enjoy! Feel free to reach out over them, particularly if you have a favorite cookie recipe.
+                Here are some other things I enjoy!
                 <ul>
-                  <li>Baking chocolate chip cookies</li>
+                  <li>Baking chocolate chip cookies (I spent summer 2020 finding my favorite recipe)</li>
                   <li>Playing online pictionary, codenames, Set, and Hanabi</li>
-                  <li>Writing short fiction</li>
-                  <li>Open data and journalism</li>
                   <li>Puzzles</li> 
                   <li>Stand-up comedy</li>
                   <li>The NYT mini crossword</li>

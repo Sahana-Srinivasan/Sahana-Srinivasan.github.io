@@ -85,7 +85,7 @@ a {
 .section-title:after {
   display: block;
   float: right;
-  margin-left: 15px;
+  margin-left: 25px;
   margin-top: 1.4em; /* half the line-height */
   border-top: 1px solid black;
   flex: 1;
@@ -94,6 +94,25 @@ a {
 
 .divider {
   display: inline-block;
+}
+
+.project-link {
+  text-decoration: none;
+  font-size: 12px;
+  background-color: #A51C30;
+  color: white;
+  border-radius: 3px;
+  padding: 2px 6px 2px 6px;
+}
+
+.project-tech {
+  text-decoration: none;
+  font-size: 12px;
+  background-color: #A9A9A9;
+  color: white;
+  border-radius: 3px;
+  padding: 2px 6px 2px 6px;
+  border: 0px;
 }
 
 @media screen and (max-width: 1023px) {
