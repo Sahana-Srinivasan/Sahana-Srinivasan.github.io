@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Image } from 'theme-ui';
 import './Profile.css'
 import Typography from '@material-ui/core/Typography';
-import { makeStyles, withStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import wics from './wics.png'
 import hodp from './hodp.png'
 import hccg from './hccg.png'

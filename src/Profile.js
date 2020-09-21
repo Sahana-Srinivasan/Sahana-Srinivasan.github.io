@@ -5,7 +5,7 @@ import theme from './theme';
 import './Profile.css';
 import headshot from './headshot.jpg'
 import Accordion from './Accordion.js'
-import { makeStyles, withStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Campus from './Campus'
 import Projects from './Projects'

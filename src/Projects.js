@@ -2,13 +2,13 @@ import React from 'react';
 import { Grid, Image, Card, Text } from 'theme-ui';
 import './Profile.css'
 import Typography from '@material-ui/core/Typography';
-import { makeStyles, withStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import hodp2 from './hodp-website.png'
 import vm from './vm-site.png'
 import research from './research.png'
 import hodp3 from './hodp-article.png'
 import cm from './covid-mapper.png'
-import journ from './journ.png'
+//import journ from './journ.png'
 import thissite from './this-site.png'
 
 const useStyles = makeStyles((theme) => ({
