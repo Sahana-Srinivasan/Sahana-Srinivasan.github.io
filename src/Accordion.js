@@ -43,7 +43,7 @@ const StyledDetails = withStyles({
 
 const StyledAccordion = withStyles({
   root: {
-    background: '#f8f8f8',
+    background: '#ffffff',
     boxShadow: '0 0 0 0',
   },
   label: {

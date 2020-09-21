@@ -36,7 +36,7 @@ export default {
   colors: {
     text: '#392a25',
     muted: '#aaaaaa',
-    background: '#f8f8f8',
+    background: '#ffffff',
     foreground: '#ffffff',
     primary: '#A51C30',
     secondary: '#FFF3F3',
