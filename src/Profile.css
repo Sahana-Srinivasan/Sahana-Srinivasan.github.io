@@ -74,6 +74,28 @@ a {
   display: inline-block;
 }
 
+.section-title {
+  display: flex;
+  margin: 0px;
+  overflow :hidden;
+  text-align: left;
+  line-height: 1.4em;
+}
+
+.section-title:after {
+  display: block;
+  float: right;
+  margin-left: 15px;
+  margin-top: 1.4em; /* half the line-height */
+  border-top: 1px solid black;
+  flex: 1;
+  content: "";
+}
+
+.divider {
+  display: inline-block;
+}
+
 @media screen and (max-width: 1023px) {
 
   #home {

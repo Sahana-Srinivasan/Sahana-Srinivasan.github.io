@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Grid, Image, Styled, Container, Divider } from "theme-ui";
+import { Card, Grid, Image, Container } from "theme-ui";
 import { useState } from "react";
 import theme from './theme';
 import './Profile.css';
@@ -32,6 +32,16 @@ const useStyles = makeStyles((theme) => ({
   text: {
     fontSize: theme.typography.pxToRem(20),
     fontWeight: theme.typography.fontWeightLight,
+    color: 'black',
+  },
+  names: {
+    fontSize: theme.typography.pxToRem(36),
+    fontWeight: "600",
+    color: 'black',
+  },
+  section: {
+    fontSize: theme.typography.pxToRem(28),
+    fontWeight: "600",
     color: 'black',
   }
 }));
@@ -96,9 +106,11 @@ function Profile(props) {
                   />
                 </div>
                 <div id="bio-box">
-                  <Styled.h1>
+                  <br></br>
+                  <Typography className={classes.names}>
                     Sahana Srinivasan
-                  </Styled.h1>
+                  </Typography>
+
                   <Typography className={classes.text}>
                   Hi! I'm a junior at Harvard studying computer science and government. I'm interested in product management, tech policy, machine learning research, and software engineering. 
                   <br></br>
@@ -117,36 +129,50 @@ function Profile(props) {
             </div>
             <div id="experience">
               <br></br>
-              <Styled.h2>
-                Work Experience
-              </Styled.h2>
-              <Divider />
+              <br></br>
+              <div className="section-title">
+                <Typography className={classes.section}>
+                  Work Experience
+                </Typography>
+              </div>
+              <br></br>
               <div id="experience-content">
                 <Accordion/>
               </div>
               <br></br>
+              <br></br>
             </div>
             <div id="on-campus">
             <br></br>
-              <Styled.h2>
-                On Campus
-              </Styled.h2>
-              <Divider />
+              <div className="section-title">
+                <Typography className={classes.section}>
+                  On Campus
+                </Typography>
+              </div>
+              <br></br>
               <Campus/>
+              <br></br>
+              <br></br>
             </div>
             <div id="projects">
             <br></br>
-              <Styled.h2>
-                Projects
-              </Styled.h2>
-              <Divider />
+              <div className="section-title">
+                <Typography className={classes.section}>
+                  Projects
+                </Typography>
+              </div>
+              <br></br>
               <Projects/>
+              <br></br>
+              <br></br>
             </div>
             <div id="interests">
-              <Styled.h2>
-                Interests
-              </Styled.h2>
-              <Divider />
+              <div className="section-title">
+                <Typography className={classes.section}>
+                  Interests
+                </Typography>
+              </div>
+              <br></br>
               <Typography className={classes.position}>
                 Here are some other things I enjoy! Feel free to reach out over them, particularly if you have a favorite cookie recipe.
                 <ul>

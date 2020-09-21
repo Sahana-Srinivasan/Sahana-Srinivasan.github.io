@@ -24,7 +24,7 @@ export default {
       variant: "text.heading",
       mt: 2,
       mb: 2,
-      fontSize: 60,
+      fontSize: 72,
     },
     h2: {
       variant: "text.heading",
