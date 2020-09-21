@@ -60,7 +60,7 @@ export default function Campus() {
         </div>
         <div>
           <Typography className={classes.date}>
-            I run all things content for HODP, an interdisciplinary data journalism publication. This usually involves working across all our teams and with all our members to manage, edit, and publish content; create data visualizations; teach bootcamps; and launch new initiatives.
+            I run all things content for HODP, an interdisciplinary data journalism publication. I work cross-functionally across all our teams to manage, edit, and publish content; create data visualizations; teach bootcamps; and launch new initiatives.
           </Typography>
         </div>
        </Grid>

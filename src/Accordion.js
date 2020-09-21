@@ -127,7 +127,7 @@ export default function SimpleAccordion() {
         <div id="work-details">
         <StyledDetails>
           <Typography className={classes.date}>
-              July 2020 - Present
+              July 2020 – Present
               <br></br>
               <ul>
                 <li>Teach recitation to 20 students and host office hours for up to 50 students</li>
