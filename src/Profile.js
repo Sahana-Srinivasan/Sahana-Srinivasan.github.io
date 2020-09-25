@@ -112,7 +112,7 @@ function Profile(props) {
                   </Typography>
                   <br></br>
                   <Typography className={classes.text}>
-                  Hi! I'm a junior at Harvard studying computer science and government. I'm interested in product management, tech policy, machine learning research, and software engineering. 
+                  Hi! I'm a junior at Harvard studying computer science and government. I'm interested in product management, tech policy, and building technology conscientiously.
                   <br></br>
                   <br></br>
                   I manage the Harvard Open Data Project, teach theoretical CS, research fairness in machine learning, and bake cookies. 
