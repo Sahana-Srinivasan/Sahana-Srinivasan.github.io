@@ -102,7 +102,7 @@ export default function Projects() {
               </Typography>
             </div>
             <Typography className={classes.date}>
-                Creates custom COVID-19 data visualizations in D3 from user-inputted mathematical expressions. Produces time graphs and maps, parses terms and math syntax natively. Voted Top 3 in category and org in Microsoft’s 2020 Global Hackathon.
+                Creates custom COVID-19 data visualizations in D3 from user-inputted mathematical expressions. Produces time graphs and maps, and parses terms and math syntax natively. Voted Top 3 in category and org in Microsoft’s 2020 Global Hackathon.
             </Typography>
             <Typography className={classes.tech}>
               <button className="project-tech">
@@ -167,7 +167,7 @@ export default function Projects() {
               </Typography>
             </div>
             <Typography className={classes.date}>
-              Used deep learning to develop novel pipeline for segmeneting lateral ventricles in 3D brain MRIs and potentially melanomatous skin lesions in lay images. Wrote two 20-page papers. 2nd place in regional science fair. Siemens Competition semifinalist (top 300 in nation).
+              Used deep learning to develop novel pipeline for segmeneting lateral ventricles in 3D brain MRIs and potentially melanomatous skin lesions in lay images. Wrote two academic papers. Poster at AMIA 2018. 2nd place in regional science fair. Siemens Competition semifinalist (top 300 in nation).
             </Typography>
             <Typography className={classes.tech}>
                 <button className="project-tech">
