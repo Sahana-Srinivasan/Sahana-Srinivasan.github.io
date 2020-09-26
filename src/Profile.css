@@ -78,6 +78,10 @@ a {
   margin-bottom: 5px;
 }
 
+.page {
+  margin-right: 35px;
+}
+
 .section-title {
   display: flex;
   margin: 0px;
@@ -125,6 +129,11 @@ a {
 }
 
 @media screen and (max-width: 1023px) {
+
+
+  .page {
+    margin-right: auto;
+  }
 
   #home {
     margin-top: 10px;

@@ -10,6 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import Campus from './Campus'
 import Projects from './Projects'
 
+
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
@@ -84,8 +85,8 @@ function Profile(props) {
       });
   return(
     <Container>
-    <div>
-      <Grid gap={3} columns={[1, 1, "1fr 3fr", "1fr 4fr"]}>
+    <div className="page">
+      <Grid gap={5} columns={[1, 1, "1fr 3fr", "1fr 4fr"]}>
           <div
             sx={{ display: ["none", "initial", "initial", "initial"], mt: "40px" }}
           >
@@ -98,7 +99,7 @@ function Profile(props) {
           </div>
           <div className="main">
             <div id="home">
-              <Grid gap={4} columns={[1, "1fr 1fr", "1fr 1fr", "3fr 7fr"]}>
+              <Grid gap={5} columns={[1, "1fr 1fr", "1fr 1fr", "3fr 7fr"]}>
                 <div className="headshot">
                 <br></br>
                   <Image 
