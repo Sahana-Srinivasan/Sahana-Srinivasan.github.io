@@ -74,6 +74,10 @@ a {
   display: inline-block;
 }
 
+.project-header {
+  margin-bottom: 5px;
+}
+
 .section-title {
   display: flex;
   margin: 0px;
@@ -113,6 +117,11 @@ a {
   border-radius: 3px;
   padding: 2px 6px 2px 6px;
   border: 0px;
+  margin-top: 10px;
+}
+
+.project-tech:focus {
+  outline: none;
 }
 
 @media screen and (max-width: 1023px) {

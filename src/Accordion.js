@@ -107,10 +107,11 @@ export default function SimpleAccordion() {
                   May – Aug 2020
                   <br></br>
                   <ul>
-                    <li>Designed and implemented inventory in cloud device management product using REST APIs, C#, and .NET</li>
-                    <li>Drove requirement selection and prioritization for feature being shipped worldwide in 2021; incorporated customer feedback and reconciled contrasting asks from 3 teams</li>
-                    <li>Presented spec at org-wide meeting to 200 PMs; convinced team to reframe feature to be more intuitive</li>
+                    <li>Designed and implemented feature that manages employee devices in enterprise product using REST APIs, C#, and .NET</li>
+                    <li>Incorporated customer feedback and collaborated across 3 stake-holding teams with contrasting asks to gather and prioritize requirements for feature being shipped worldwide in 2021</li>
+                    <li>Convinced team to reframe sub-features of long-standing product to be more intuitive by developing 20 user stories that clarified points of potential customer confusion</li>
                     <li>Optimized database design to improve load balancing and query time from previous product</li>
+                    <li>Selected to present product specification at division-wide meeting to 200 program managers</li>
                   </ul>
             </Typography>
           </StyledDetails>

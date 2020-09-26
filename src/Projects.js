@@ -242,7 +242,12 @@ export default function Projects() {
               </Typography>
             </div>
             <Typography className={classes.date}>
-              Built from scratch in React. 
+              Built from scratch.
+            </Typography>
+            <Typography className={classes.tech}>
+              <button className="project-tech">
+               React
+              </button>
             </Typography>
             <Typography className={classes.links}>
               <a className="project-link" href="https://github.com/Sahana-Srinivasan/Sahana-Srinivasan.github.io">Source code</a>
