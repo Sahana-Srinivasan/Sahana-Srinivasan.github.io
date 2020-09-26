@@ -85,7 +85,7 @@ function Profile(props) {
       });
   return(
     <Container>
-    <div className="page">
+    <div>
       <Grid gap={5} columns={[1, 1, "1fr 3fr", "1fr 4fr"]}>
           <div
             sx={{ display: ["none", "initial", "initial", "initial"], mt: "40px" }}
