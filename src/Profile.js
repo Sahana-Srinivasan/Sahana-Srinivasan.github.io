@@ -113,16 +113,15 @@ function Profile(props) {
                   </Typography>
                   <br></br>
                   <Typography className={classes.text}>
-                  Hi! I'm a junior at Harvard studying computer science and government. I'm interested in product management, tech policy, and building technology conscientiously.
+                  Hi! I'm a rising senior at Harvard studying computer science and government. I'm interested in product management, tech policy, fairness, and responsible/social impact/public interest tech.
                   <br></br>
                   <br></br>
-                  I manage the Harvard Open Data Project, teach theoretical CS, research fairness in machine learning, and bake cookies. 
+                  Right now I'm building a new member/alumni portal for Harvard Women in Computer Science and interning as a PM at Microsoft.
                   <br></br>
                   <br></br>
                   Find me on&nbsp;
-                    <a id="social-link" href="https://www.github.com/sahana-srinivasan">GitHub</a>,&nbsp;
-                    <a id="social-link" href="https://www.linkedin.com/in/sahana-srinivasan-009">Linkedin</a>, and the&nbsp;
-                    <a id="social-link" href="https://hodp.org/people/sahana-srinivasan">HODP website</a>, or by&nbsp;
+                    <a id="social-link" href="https://www.github.com/sahana-srinivasan">GitHub</a> and&nbsp;
+                    <a id="social-link" href="https://www.linkedin.com/in/sahana-srinivasan-009">Linkedin</a>, or by&nbsp;
                     <a id="social-link" href="mailto:sahanasrinivasan@college.harvard.edu">email</a>.
                   </Typography>
                   <br></br>
@@ -176,13 +175,13 @@ function Profile(props) {
               </div>
               <br></br>
               <Typography className={classes.position}>
-                Here are some other things I enjoy!
+                Here are some other things I've been up to recently!
                 <ul>
-                  <li>Baking chocolate chip cookies (I spent summer 2020 finding my favorite recipe)</li>
-                  <li>Playing online pictionary, codenames, Set, and Hanabi</li>
-                  <li>Puzzles</li> 
-                  <li>Stand-up comedy</li>
-                  <li>The NYT mini crossword</li>
+                  <li>Cooking more! Trying out new recipes and trying to chop faster</li>
+                  <li>Playing lots of Skribbl, Gartic phone, and codenames </li>
+                  <li>Playing the NYT Spelling Bee and Letterboxed literally every day</li> 
+                  <li>Watching stand-up comedy specials</li>
+                  <li>Watching the Great British Bake-Off</li>
                 </ul>
                 <br></br>
                 <br></br>

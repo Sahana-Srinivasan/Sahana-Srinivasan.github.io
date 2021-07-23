@@ -46,29 +46,6 @@ export default function Campus() {
        <Grid gap={4} columns={[1, "1fr 1fr", "1fr 1fr", "3fr 7fr"]}>
         <div>
           <div id="club-logo">
-            <a href="https://hodp.org">
-              <Image src={hodp}/>
-            </a>
-          </div>
-          <div id="club-space">&nbsp;&nbsp;&nbsp;&nbsp;</div>
-          <div id="club-name">
-            <Typography className={classes.heading}><a href="https://hodp.org">Harvard Open Data Project</a></Typography>
-            <Typography className={classes.date}>
-              Managing Editor
-            </Typography>
-          </div>
-        </div>
-        <div>
-          <Typography className={classes.date}>
-            I run all things content for HODP, an interdisciplinary data journalism publication. I work cross-functionally across all our teams to manage, edit, and publish content; create data visualizations; teach bootcamps; and launch new initiatives.
-          </Typography>
-        </div>
-       </Grid>
-       <br></br>
-       <br></br>
-       <Grid gap={4} columns={[1, "1fr 1fr", "1fr 1fr", "3fr 7fr"]}>
-        <div>
-          <div id="club-logo">
             <a href="https://harvardwics.com">
               <Image src={wics}/>
             </a>
@@ -83,7 +60,30 @@ export default function Campus() {
         </div>
         <div>
           <Typography className={classes.date}>
-            I lead the resources project, creating and collecting career, academic, and advocacy resources for students to navigate CS at Harvard and beyond.
+            I lead the resources project, creating and collecting career, academic, and advocacy resources for students to navigate CS at Harvard and beyond. In particular, I've devloped guides for getting involved in civic tech, product management, and social impact work. I'm also leading a team to build our first-ever member/alumni portal, an especially exciting challenge since we have over 300 members to support. Our club has so many events, opportunities, and resources, but no organized way to access them or to network. We tackled the problem by first interviewing and surveying members, and then undergoing a full product development process, including feature prioritization, Figma mocks, from-scratch implementation, and user testing.
+          </Typography>
+        </div>
+       </Grid>
+       <br></br>
+       <br></br>
+       <Grid gap={4} columns={[1, "1fr 1fr", "1fr 1fr", "3fr 7fr"]}>
+        <div>
+          <div id="club-logo">
+            <a href="https://hodp.org">
+              <Image src={hodp}/>
+            </a>
+          </div>
+          <div id="club-space">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+          <div id="club-name">
+            <Typography className={classes.heading}><a href="https://hodp.org">Harvard Open Data Project</a></Typography>
+            <Typography className={classes.date}>
+              Managing Editor
+            </Typography>
+          </div>
+        </div>
+        <div>
+          <Typography className={classes.date}>
+            I ran all things content for HODP, an interdisciplinary data journalism publication. I worked cross-functionally across our 4 sub-teams to manage, edit, and publish content; create data visualizations; teach bootcamps; and launch new initiatives. I'm most proud of streamlining our publishing process to make writing with us easier and making our bootcamp and membership structure more inclusive.
           </Typography>
         </div>
        </Grid>
@@ -109,7 +109,7 @@ export default function Campus() {
         </div>
         <div>
           <Typography className={classes.date}>
-            I consulted for non-profits through HCCG for two years. I worked on everything from imputing data for an international service organization to analyzing the role of the private sector in child development.
+            I consulted for non-profits through HCCG for two years. I worked on everything from imputing data for an international service organization to analyzing how the private sector could better support children's rights.
           </Typography>
         </div>
        </Grid>

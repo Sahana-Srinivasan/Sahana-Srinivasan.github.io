@@ -8,6 +8,7 @@ import vm from './vm-site.png'
 import research from './research.png'
 import hodp3 from './hodp-article.png'
 import cm from './covid-mapper.png'
+import wicsportal from './wics-portal.png'
 //import journ from './journ.png'
 import thissite from './this-site.png'
 
@@ -56,6 +57,37 @@ export default function Projects() {
     <div>
        <br></br>
        <Grid gap={1} columns={[1, "1fr 1fr"]}>
+       <Card
+          sx={{
+            maxWidth: 500,
+          }}>
+          <a href="https://the-voting-methods.web.app"><Image src={wicsportal} /></a>
+          <Text>
+            <div className="project-header">
+              <Typography className={classes.heading} id="project-name">
+                <a href="https://the-voting-methods.web.app">Member Portal for Harvard Women in Computer Science&nbsp;&nbsp;</a>
+              </Typography>
+              <Typography className={classes.date} id="project-date">
+                2021
+              </Typography>
+            </div>
+            <Typography className={classes.date}>
+              Defined requirements for, designed, and built searchable calendar, member directory, and announcements feature
+            </Typography>
+            <Typography className={classes.tech}>
+             <button className="project-tech">
+               React
+             </button>&nbsp;
+             <button className="project-tech">
+               Firebase
+             </button>
+            </Typography>
+            <Typography className={classes.links}>
+              <a className="project-link">Source code private for security</a>&nbsp;
+              <a className="project-link">Site internal to club</a>
+            </Typography>
+          </Text>
+        </Card>
         <Card
           sx={{
             maxWidth: 500,

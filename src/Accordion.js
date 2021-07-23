@@ -99,7 +99,30 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Microsoft </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Program Management and Software Engineering Intern</Typography>
+          <Typography className={classes.heading}>Microsoft </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Product Management Intern</Typography>
+        </NewAccordionSummary>
+        <div id="work-details">
+          <StyledDetails>
+            <Typography className={classes.date}>
+                  May 2021 – Present
+                  <br></br>
+                  <ul>
+                    <li>Developing a new feature in Family Safety: analyzed live app feedback, ran 8-user study, translated customer pain points into requirements, and designed and user-tested UX mocks</li>
+                    <li>Led 3 interns to launch new feature: collaborated across 5 stakeholding teams to define project requirements, resolve 2 previously-uncovered UX flaws, and run division-wide feature testing</li>
+                    <li>My biggest learnings and success moments: the first time I successfully pitched a feature design, the first time I aligned stakeholders who initially completely disagreed on a decision, when I discovered a UX bug </li>
+                  </ul>
+            </Typography>
+          </StyledDetails>
+        </div>
+      </StyledAccordion>
+      <StyledAccordion>
+        
+        <NewAccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography className={classes.heading}>Microsoft </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Product Management and Software Engineering Intern (Explore)</Typography>
         </NewAccordionSummary>
         <div id="work-details">
           <StyledDetails>
@@ -109,7 +132,7 @@ export default function SimpleAccordion() {
                   <ul>
                     <li>Designed and implemented feature that manages employee devices in enterprise product using REST APIs, C#, and .NET</li>
                     <li>Incorporated customer feedback and collaborated across 3 stake-holding teams with contrasting asks to gather and prioritize requirements for feature being shipped worldwide in 2021</li>
-                    <li>Convinced team to reframe sub-features of long-standing product to be more intuitive by developing 20 user stories that clarified points of potential customer confusion</li>
+                    <li>Developed 20 user stories clarifying points of customer confusion, leading team to update longstanding UI</li>
                     <li>Optimized database design to improve load balancing and query time from previous product</li>
                     <li>Selected to present product specification at division-wide meeting to 200 program managers</li>
                   </ul>
@@ -120,21 +143,19 @@ export default function SimpleAccordion() {
       <StyledAccordion>
         <NewAccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
+          aria-controls="panel3a-content"
+          id="panel3a-header"
         >
-          <Typography className={classes.heading}>Harvard </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Teaching Fellow and Researcher</Typography>
+          <Typography className={classes.heading}>Harvard University</Typography>&nbsp;&nbsp;<Typography className={classes.position}> Teaching Fellow</Typography>
         </NewAccordionSummary>
         <div id="work-details">
         <StyledDetails>
           <Typography className={classes.date}>
-              July 2020 – Present
+              Aug – Dec 2020
               <br></br>
               <ul>
-                <li>Teach recitation to 20 students and host office hours for up to 50 students</li>
+                <li>Taught recitation to 20 students and hosted office hours for up to 50 students</li>
                 <li>Create supplementary lecture videos and practice problems explaning fundamental concepts of theoretical computer science, including uncomputability, algorithmic complexity, probabilistic computing, and reductions</li>
-                <li>Research effects of complexity on machine learning fairness through a novel framework</li>
-
               </ul>
           </Typography>
         </StyledDetails>
@@ -143,8 +164,8 @@ export default function SimpleAccordion() {
       <StyledAccordion>
         <NewAccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
+          aria-controls="panel4a-content"
+          id="panel4a-header"
         >
           <Typography className={classes.heading}>Blockstack </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Software Engineering Intern</Typography>
         </NewAccordionSummary>
