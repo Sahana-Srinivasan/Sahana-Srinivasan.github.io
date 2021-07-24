@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5bdcc7850ef8b63f65dc2a86ef2c19b4",
+    "revision": "dcef3e1f846c38857627cd871fafabde",
     "url": "/index.html"
   },
   {
-    "revision": "002ee749d28c1f44ec1e",
+    "revision": "b18429e8c725802a3e04",
     "url": "/static/css/main.6c2b7b84.chunk.css"
   },
   {
-    "revision": "7b2692818a5001424761",
-    "url": "/static/js/2.2bf00fb3.chunk.js"
+    "revision": "2558831fb369d36dc1d2",
+    "url": "/static/js/2.0b131012.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.2bf00fb3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0b131012.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "002ee749d28c1f44ec1e",
-    "url": "/static/js/main.fa16a292.chunk.js"
+    "revision": "b18429e8c725802a3e04",
+    "url": "/static/js/main.742d1499.chunk.js"
   },
   {
     "revision": "766df7dbb5392e1314ed",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9572941cbb28fd0289de163f92291e69",
     "url": "/static/media/vm-site.9572941c.png"
+  },
+  {
+    "revision": "aa33697d1dfe9509333a274bbb4bb526",
+    "url": "/static/media/wics-portal.aa33697d.png"
   },
   {
     "revision": "7ac13a3674e91ee636b237cd6b6fe0a7",
