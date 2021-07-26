@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-function Profile(props) {
+function Interests(props) {
 
   const classes = useStyles();
 
@@ -70,35 +70,25 @@ function Profile(props) {
 
           <Navbar/>
           <div className="main">
-            <div id="home">
-              <Grid gap={5} columns={[1, "1fr 1fr", "1fr 1fr", "3fr 7fr"]}>
-                <div className="headshot">
+            <div id="interests">
+              <div className="section-title">
+                <Typography className={classes.section}>
+                  Interests
+                </Typography>
+              </div>
+              <br></br>
+              <Typography className={classes.position}>
+                Here are some other things I've been up to recently!
+                <ul>
+                  <li>Cooking more! Trying out new recipes and trying to chop faster</li>
+                  <li>Playing lots of Skribbl, Gartic phone, and codenames </li>
+                  <li>Playing the NYT Spelling Bee and Letterboxed literally every day</li> 
+                  <li>Watching stand-up comedy specials</li>
+                  <li>Watching the Great British Bake-Off</li>
+                </ul>
                 <br></br>
-                  <Image 
-                    src={headshot}
-                  />
-                </div>
-                <div id="bio-box">
-                  <br></br>
-                  <Typography className={classes.names}>
-                    Sahana Srinivasan
-                  </Typography>
-                  <br></br>
-                  <Typography className={classes.text}>
-                  Hi! I'm a rising senior at Harvard studying computer science and government. I'm interested in product management, tech policy, fairness, and responsible/social impact/public interest tech.
-                  <br></br>
-                  <br></br>
-                  Right now I'm building a new member/alumni portal for Harvard Women in Computer Science and interning as a PM at Microsoft.
-                  <br></br>
-                  <br></br>
-                  Find me on&nbsp;
-                    <a id="social-link" href="https://www.github.com/sahana-srinivasan">GitHub</a> and&nbsp;
-                    <a id="social-link" href="https://www.linkedin.com/in/sahana-srinivasan-009">Linkedin</a>, or by&nbsp;
-                    <a id="social-link" href="mailto:sahanasrinivasan@college.harvard.edu">email</a>.
-                  </Typography>
-                  <br></br>
-                </div>
-              </Grid>
+                <br></br>
+              </Typography>
             </div>
           </div>
           <div className="buffer"></div>
@@ -108,4 +98,4 @@ function Profile(props) {
   );
 }
 
-export default Profile;
+export default Interests;
