@@ -63,15 +63,15 @@ function Mobilebar(props) {
   function handleChange(event) {
     props.onChange(false);
   }
-  //for now, can edit page categories here
-  const pages = ['home', 'experience', 'campus', 'projects', 'interests'];
-  const navItems = pages.map((page) => {
-        const current = (location.pathname.replace('/','') === page || 
-                        (page === 'Home' && location.pathname === '/')); /*kind of rickety imo - possibly better with react-router-dom useLocation ? */
+
+  const subjects = [["Home", "home"], ["Experience", "experience"], ["Campus", "campus"], ["Projects", "projects"], ["Interests", "interests"]];
+  const navItems = subjects.map((subject) => {
+        const current = (location.pathname.replace('/','') === subject[1] || 
+                        (subject[1] === 'home' && location.pathname === '/'));
         return (
           <Link 
-            to={page} onClick={handleChange}
-          > {/*also kinda rickety in case we want urls and sidebar text to differ lol*/}
+            to={subject[1]} onClick={handleChange}
+          > 
             <Card
                 sx={{
                   backgroundColor: current ? 'primary' : 'white',
@@ -87,7 +87,7 @@ function Mobilebar(props) {
                 >
                 <div>
                   <Typography className={current ? classes.navHighlight : classes.navRegular }>
-                      {page}
+                      {subject[0]}
                   </Typography>
                 </div>
             </Card>
