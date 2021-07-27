@@ -78,10 +78,10 @@ function Mobilebar(props) {
                   color: current ? 'white' : 'primary',
                   alignContent: 'center',
                   wordWrap: "break-word",
-                  padding: 3,
+                  padding: 2,
                   borderRadius:'32px 32px 32px 32px',
-                  marginLeft: 3,
-                  marginRight: 3,
+                  marginLeft: 2,
+                  marginRight: 2,
                   maxWidth:'100%',
                 }}
                 >
