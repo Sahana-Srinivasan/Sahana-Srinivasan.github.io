@@ -78,19 +78,17 @@ function Mobilebar(props) {
                   color: current ? 'white' : 'primary',
                   alignContent: 'center',
                   wordWrap: "break-word",
-                  padding: .6,
+                  padding: 3,
                   borderRadius:'32px 32px 32px 32px',
-                  marginLeft:3,
+                  marginLeft: 3,
                   marginRight: 3,
                   maxWidth:'100%',
                 }}
                 >
                 <div>
-                  <br></br>
                   <Typography className={current ? classes.navHighlight : classes.navRegular }>
                       {page}
                   </Typography>
-                  <br></br>
                 </div>
             </Card>
           </Link>

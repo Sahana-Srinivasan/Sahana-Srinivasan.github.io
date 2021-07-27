@@ -125,9 +125,10 @@ export default function SimpleAccordion() {
                         May 2021 – Present
                         <br></br>
                         <ul>
-                          <li>Developing a new feature in Family Safety: analyzed live app feedback, ran 8-user study, translated customer pain points into requirements, and designed and user-tested UX mocks</li>
-                          <li>Led 3 interns to launch new feature: collaborated across 5 stakeholding teams to define project requirements, resolve 2 previously-uncovered UX flaws, and run division-wide feature testing</li>
-                          <li>My biggest learnings and success moments: the first time I successfully pitched a feature design, the first time I aligned stakeholders who initially completely disagreed on a decision, when I discovered a UX bug </li>
+                          <li>Led 3 engineering interns to launch feature in Family Safety product: collaborated across 5 stakeholding teams to define project requirements, discover and resolve UX flaws, plan, and run org-wide testing</li>
+                          <li>Reduced app setup time by 20% and increaed user transparency by analying page-tracking metrics and spearheading creation, adoption of new UX flow</li>
+                          <li>Defined and designed new feature by conducting user study and analyzing live product feedback; drove inclusion of feature in product roadmap by aligning with long-term leadership strategy</li>
+                          <li>My biggest learnings and success moments: the first time I drove full team buy-in on a new flow, the first time I aligned stakeholders who initially completely disagreed on a decision </li>
                         </ul>
                   </Typography>
                 </StyledDetails>
@@ -148,8 +149,8 @@ export default function SimpleAccordion() {
                         May – Aug 2020
                         <br></br>
                         <ul>
-                          <li>Designed and implemented feature that manages employee devices in enterprise product using REST APIs, C#, and .NET</li>
-                          <li>Incorporated customer feedback and collaborated across 3 stake-holding teams with contrasting asks to gather and prioritize requirements for feature being shipped worldwide in 2021</li>
+                          <li>Incorporated customer feedback and collaborated across 3 stake-holding teams with contrasting asks to gather and prioritize requirements for feature that logs corporate devices</li>
+                          <li>Implemented feature using C# and REST APIs; feature launched worldwide to 10M+ users</li>
                           <li>Developed 20 user stories clarifying points of customer confusion, leading team to update longstanding UI</li>
                           <li>Optimized database design to improve load balancing and query time from previous product</li>
                           <li>Selected to present product specification at division-wide meeting to 200 program managers</li>
@@ -172,8 +173,8 @@ export default function SimpleAccordion() {
                     Aug – Dec 2020
                     <br></br>
                     <ul>
-                      <li>Taught recitation to 20 students and hosted office hours for up to 50 students</li>
-                      <li>Create supplementary lecture videos and practice problems explaning fundamental concepts of theoretical computer science, including uncomputability, algorithmic complexity, probabilistic computing, and reductions</li>
+                      <li>Taught recitation to 20 students; hosted course's most-popular office hours, teaching up to 40 students</li>
+                      <li>Create supplementary lecture videos and homeworks explaning fundamental concepts of theoretical computer science, including uncomputability, algorithmic complexity, probabilistic computing, and reductions</li>
                     </ul>
                 </Typography>
               </StyledDetails>
