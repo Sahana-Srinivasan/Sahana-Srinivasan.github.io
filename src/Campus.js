@@ -6,10 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import wics from './wics.png'
 import hodp from './hodp.png'
 import hccg from './hccg.png'
-import Navbar from './Navbar'
-
-
-
+import Nav from './Nav'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -49,11 +46,9 @@ export default function Campus() {
   return (
   <Container>
         <div>
-          <Navbar/>
+          <Nav/>
           <div className="main">
             <div id="on-campus">
-              <br></br>
-              <br></br>
                 <div className="section-title">
                   <Typography className={classes.section}>
                     On Campus

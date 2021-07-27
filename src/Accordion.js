@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Container } from "theme-ui";
 import './Profile.css'
-import Navbar from './Navbar'
+import Nav from './Nav'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -99,11 +99,9 @@ export default function SimpleAccordion() {
   return (
     <Container>
       <div>
-        <Navbar/>
+        <Nav/>
         <div className="main">
           <div id="experience">
-            <br></br>
-            <br></br>
             <div className="section-title">
               <Typography className={classes.section}>
                 Work Experience

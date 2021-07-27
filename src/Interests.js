@@ -1,16 +1,9 @@
 import React from 'react';
-import { Card, Grid, Image, Container } from "theme-ui";
-import { useState } from "react";
-import theme from './theme';
+import { Container } from "theme-ui";
 import './Profile.css';
-import headshot from './headshot.jpg'
-import Accordion from './Accordion.js'
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Campus from './Campus'
-import Projects from './Projects'
-import { Link } from "react-router-dom"
-import Navbar from './Navbar'
+import Nav from './Nav'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -68,7 +61,7 @@ function Interests(props) {
     <div>
       {/*<Grid gap={5} columns={[1, 1, "1fr 3fr", "1fr 4fr"]}>*/}
 
-          <Navbar/>
+          <Nav/>
           <div className="main">
             <div id="interests">
               <div className="section-title">

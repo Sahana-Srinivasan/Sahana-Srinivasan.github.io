@@ -1,16 +1,10 @@
 import React from 'react';
-import { Card, Grid, Image, Container } from "theme-ui";
-import { useState } from "react";
-import theme from './theme';
+import { Grid, Image, Container } from "theme-ui";
 import './Profile.css';
 import headshot from './headshot.jpg'
-import Accordion from './Accordion.js'
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Campus from './Campus'
-import Projects from './Projects'
-import { Link } from "react-router-dom"
-import Navbar from './Navbar'
+import Nav from './Nav'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -68,7 +62,7 @@ function Profile(props) {
     <div>
       {/*<Grid gap={5} columns={[1, 1, "1fr 3fr", "1fr 4fr"]}>*/}
 
-          <Navbar/>
+          <Nav/>
           <div className="main">
             <div id="home">
               <Grid gap={5} columns={[1, "1fr 1fr", "1fr 1fr", "3fr 7fr"]}>
@@ -85,10 +79,10 @@ function Profile(props) {
                   </Typography>
                   <br></br>
                   <Typography className={classes.text}>
-                  Hi! I'm a rising senior at Harvard studying computer science and government. I'm interested in product management, tech policy, fairness, and responsible/social impact/public interest tech.
+                  Hi! I'm a rising senior at Harvard studying computer science and government. I'm interested in product management, tech policy, and fairness. I hope to build responsible, conscientious technology that is in the public interest, helps people, and benefits society.
                   <br></br>
                   <br></br>
-                  Right now I'm building a new member/alumni portal for Harvard Women in Computer Science and interning as a PM at Microsoft.
+                  Right now I'm building a new internal website for Harvard Women in Computer Science, interning as a PM at Microsoft, and ideating a senior thesis in fairness.
                   <br></br>
                   <br></br>
                   Find me on&nbsp;

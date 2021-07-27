@@ -9,9 +9,8 @@ import research from './research.png'
 import hodp3 from './hodp-article.png'
 import cm from './covid-mapper.png'
 import wicsportal from './wics-portal.png'
-//import journ from './journ.png'
 import thissite from './this-site.png'
-import Navbar from './Navbar'
+import Nav from './Nav'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -61,11 +60,9 @@ export default function Projects() {
   return (
     <Container>
         <div>
-          <Navbar/>
+          <Nav/>
           <div className="main">
               <div id="projects">
-                <br></br>
-                <br></br>
                 <Grid gap={1} columns={[1, "1fr 1fr"]}>
                 <Card
                     sx={{
