@@ -6,7 +6,7 @@ import './Profile.css';
 import headshot from './headshot.jpg';
 
 function Sidebar() {
-  const subjects = [["Home", "home"], ["Experience", "experience"], ["On Campus", "on-campus"], ["Projects", "projects"], ["Contact", "contact"]];
+  const subjects = [["Home", "home"], ["Experience", "experience"], ["Projects", "projects"]];
   const [activeCategory, setActiveCategory] = useState("Projects");
   const cards = 
       subjects.map((subject) => {

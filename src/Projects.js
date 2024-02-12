@@ -10,6 +10,8 @@ import hodp3 from './hodp-article.png'
 import cm from './covid-mapper.png'
 import wicsportal from './wics-portal.png'
 import thissite from './this-site.png'
+import dayone from './day_one.png'
+import electionsAI from './electionsAI.png'
 import Nav from './Nav'
 
 const useStyles = makeStyles((theme) => ({
@@ -64,6 +66,71 @@ export default function Projects() {
           <div className="main">
               <div id="projects">
                 <Grid gap={1} columns={[1, "1fr 1fr"]}>
+                <Card
+                    sx={{
+                      maxWidth: 500,
+                    }}>
+                    <a href="https://data.democracy.works/elections-and-ai"><Image src={electionsAI} /></a>
+                    <Text>
+                      <div className="project-header">
+                        <Typography className={classes.heading} id="project-name">
+                          <a href="https://data.democracy.works/elections-and-ai">AI and Elections: Taxonomy of Risks and a Risk Mitigation Framework&nbsp;&nbsp;</a>
+                        </Typography>
+                        <Typography className={classes.date} id="project-date">
+                          2024
+                        </Typography>
+                      </div>
+                      <Typography className={classes.date}>
+                          Created a taxonomy of AI harms in the elections space, and a risk mitigation and evaluations framework for integrating API data into frontier models
+                      </Typography>
+                      <Typography className={classes.tech}>
+                      <button className="project-tech">
+                        Taxonomy of harms
+                      </button>&nbsp;
+                      <button className="project-tech">
+                        AI risk management framework
+                      </button>&nbsp;
+                      {/* <button className="project-tech">
+                        Firebase
+                      </button> */}
+                      </Typography>
+                      {/* <Typography className={classes.links}>
+                        <a className="project-link">Source code private for security</a>&nbsp;
+                        <a className="project-link">Site internal to club</a>
+                      </Typography> */}
+                    </Text>
+                </Card>
+                <Card
+                    sx={{
+                      maxWidth: 500,
+                    }}>
+                    <a href="https://fas.org/publication/creating-a-fair-work-ombudsman-to-bolster-protections-for-gig-workers/"><Image src={dayone} /></a>
+                    <Text>
+                      <div className="project-header">
+                        <Typography className={classes.heading} id="project-name">
+                          <a href="https://fas.org/publication/creating-a-fair-work-ombudsman-to-bolster-protections-for-gig-workers/">Policy Proposal: Creating a Fair Work Ombudsman to Bolster Protections for Gig Workers&nbsp;&nbsp;</a>
+                        </Typography>
+                        <Typography className={classes.date} id="project-date">
+                          2023
+                        </Typography>
+                      </div>
+                      <Typography className={classes.date}>
+                        Wrote policy paper and developed implementation plan to increase federal protections for vulnerable gig workers, in consultation with academic labor and Department of Labor experts; proposal published through Day One Project
+                      </Typography>
+                      <Typography className={classes.tech}>
+                      <button className="project-tech">
+                        Policy memo
+                      </button>&nbsp;
+                      {/* <button className="project-tech">
+                        Firebase
+                      </button> */}
+                      </Typography>
+                      {/* <Typography className={classes.links}>
+                        <a className="project-link">Source code private for security</a>&nbsp;
+                        <a className="project-link">Site internal to club</a>
+                      </Typography> */}
+                    </Text>
+                </Card>
                 <Card
                     sx={{
                       maxWidth: 500,

@@ -63,7 +63,7 @@ function Navbar(props) {
   const location = useLocation();
 
   
-  const subjects = [["Home", "home"], ["Experience", "experience"], ["Campus", "campus"], ["Projects", "projects"], ["Interests", "interests"]];
+  const subjects = [["Home", "home"], ["Experience", "experience"],  ["Projects", "projects"]];
   const [activeCategory, setActiveCategory] = useState("Home");
   
   const cards = 
@@ -104,7 +104,7 @@ function Navbar(props) {
         <div className="content-desktop">
           <br></br>
           <div className="nav-items">
-            <Grid gap={1} columns={[5, "1fr 1fr 1fr 1fr 1fr"]}>
+            <Grid gap={1} columns={[3, "1fr 1fr 1fr"]}>
               {cards}
             </Grid>
           </div>

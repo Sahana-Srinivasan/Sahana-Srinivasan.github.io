@@ -64,7 +64,7 @@ function Mobilebar(props) {
     props.onChange(false);
   }
 
-  const subjects = [["Home", "home"], ["Experience", "experience"], ["Campus", "campus"], ["Projects", "projects"], ["Interests", "interests"]];
+  const subjects = [["Home", "home"], ["Experience", "experience"], ["Projects", "projects"]];
   const navItems = subjects.map((subject) => {
         const current = (location.pathname.replace('/','') === subject[1] || 
                         (subject[1] === 'home' && location.pathname === '/'));

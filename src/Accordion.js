@@ -117,6 +117,75 @@ export default function SimpleAccordion() {
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
+                <Typography className={classes.heading}>Schmidt Futures </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Technologists for Global Transformation Rotational Fellowship</Typography>
+              </NewAccordionSummary>
+              <div id="work-details">
+                <StyledDetails>
+                  <Typography className={classes.date}>
+                        Sept 2022 – Present
+                        <br></br>
+                        <ul>
+                          <li>Created a taxonomy of AI safety research subfields and wrote memo defining AI safety for philanthropic partners</li>
+                          <li>Developed strategy for AI safety and ethics funding and helped design new prize in AI</li>
+                          <li>Scoped a nonprofit trust and safety tooling accelerator</li>
+                        </ul>
+                  </Typography>
+                </StyledDetails>
+              </div>
+            </StyledAccordion>
+            <StyledAccordion>
+              
+              <NewAccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+              >
+                <Typography className={classes.heading}>Democracy Works </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Product Manager</Typography>
+              </NewAccordionSummary>
+              <div id="work-details">
+                <StyledDetails>
+                  <Typography className={classes.date}>
+                        July 2023 – Present
+                        <br></br>
+                        <ul>
+                          <li>Developed <a id="social-link" href="https://data.democracy.works/elections-and-ai">taxonomy</a> of AI safety risks in elections space, risk management and evaluations framework for how frontier AI models can address election questions and prevent misinformation, disenfranchisement through API integration</li>
+                          <li>Launched <a id="social-link" href="https://turbovote.org/preregister/voter-info">TurboVote tool</a> to register teenagers to vote in advance of 2024 election</li>
+                          <li>Secondment from Schmidt Futures through rotational program</li>
+                        </ul>
+                  </Typography>
+                </StyledDetails>
+              </div>
+            </StyledAccordion>
+            <StyledAccordion>
+              
+              <NewAccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+              >
+                <Typography className={classes.heading}>Khan Academy</Typography>&nbsp;&nbsp;<Typography className={classes.position}> Product Manager</Typography>
+              </NewAccordionSummary>
+              <div id="work-details">
+                <StyledDetails>
+                  <Typography className={classes.date}>
+                        Oct 2022 - March 2023
+                        <br></br>
+                        <ul>
+                          <li>Red-teamed new <a id="social-link" href="https://www.khanacademy.org/khan-labs">AI tutor</a>; identified safety and functionality gaps</li>
+                          <li>Scoped and helped design <a id="social-link" href="https://www.khanacademy.org/regions/united-states">map</a> of all educational content by 50 states’ educational standards, feature identified as most-needed by teachers and key to several securing state partnerships</li>
+                          <li>Secondment from Schmidt Futures through rotational program</li>
+                        </ul>
+                  </Typography>
+                </StyledDetails>
+              </div>
+            </StyledAccordion>
+            <StyledAccordion>
+              
+              <NewAccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+              >
                 <Typography className={classes.heading}>Microsoft </Typography>&nbsp;&nbsp;<Typography className={classes.position}> Product Management Intern</Typography>
               </NewAccordionSummary>
               <div id="work-details">

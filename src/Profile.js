@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Image, Container } from "theme-ui";
 import './Profile.css';
-import headshot from './headshot.jpg'
+import headshot from './thesis_cropped.jpeg'
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Nav from './Nav'
@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     color: 'black',
   },
   names: {
-    fontSize: theme.typography.pxToRem(36),
+    fontSize: theme.typography.pxToRem(33),
     fontWeight: "600",
     color: 'black',
   },
@@ -79,17 +79,18 @@ function Profile(props) {
                   </Typography>
                   <br></br>
                   <Typography className={classes.text}>
-                  Hi! I'm a rising senior at Harvard studying computer science and government. I'm interested in product management, tech policy, and fairness. I hope to build responsible, conscientious technology that is in the public interest, helps people, and benefits society.
+                  Hi! I'm passionate about building safe and ethical technology that helps people, leveraging policy and the product development process.
                   <br></br>
                   <br></br>
-                  Right now I'm building a new internal website for Harvard Women in Computer Science, interning as a PM at Microsoft, and ideating a senior thesis in fairness.
+                  I'm currently a product manager at <a id="social-link" href="https://www.schmidtfutures.org/">Schmidt Futures</a> in the <a id="social-link" href="https://www.schmidtfutures.org/our-work-old/technologists-for-global-transformation/">Technologists for Global Transformation</a> program, a rotational fellowship for technologists working in social impact. I formerly worked at Microsoft and graduated from Harvard with a bachelor's in computer science and government, where I focused on fairness and privacy.
                   <br></br>
                   <br></br>
                   Find me on&nbsp;
                     <a id="social-link" href="https://www.github.com/sahana-srinivasan">GitHub</a> and&nbsp;
                     <a id="social-link" href="https://www.linkedin.com/in/sahana-srinivasan-009">Linkedin</a>, or by&nbsp;
-                    <a id="social-link" href="mailto:sahanasrinivasan@college.harvard.edu">email</a>.
+                    <a id="social-link" href="mailto:sahanas009@gmail.com">email</a>.
                   </Typography>
+                  <br></br>
                   <br></br>
                 </div>
               </Grid>
