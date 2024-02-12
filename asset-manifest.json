@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.c7e4653f.chunk.css",
-    "main.js": "/static/js/main.a00d3337.chunk.js",
-    "main.js.map": "/static/js/main.a00d3337.chunk.js.map",
+    "main.js": "/static/js/main.a5a8abdd.chunk.js",
+    "main.js.map": "/static/js/main.a5a8abdd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9c9c41ef.js",
     "runtime-main.js.map": "/static/js/runtime-main.9c9c41ef.js.map",
-    "static/js/2.14f0be9a.chunk.js": "/static/js/2.14f0be9a.chunk.js",
-    "static/js/2.14f0be9a.chunk.js.map": "/static/js/2.14f0be9a.chunk.js.map",
+    "static/js/2.3f4bf12d.chunk.js": "/static/js/2.3f4bf12d.chunk.js",
+    "static/js/2.3f4bf12d.chunk.js.map": "/static/js/2.3f4bf12d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.57143442e542734ce6190a1ea8a1d51d.js": "/precache-manifest.57143442e542734ce6190a1ea8a1d51d.js",
+    "precache-manifest.9ba7a88d6c5f5ea761ec9716d1ecbd1f.js": "/precache-manifest.9ba7a88d6c5f5ea761ec9716d1ecbd1f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.c7e4653f.chunk.css.map": "/static/css/main.c7e4653f.chunk.css.map",
-    "static/js/2.14f0be9a.chunk.js.LICENSE.txt": "/static/js/2.14f0be9a.chunk.js.LICENSE.txt",
+    "static/js/2.3f4bf12d.chunk.js.LICENSE.txt": "/static/js/2.3f4bf12d.chunk.js.LICENSE.txt",
     "static/media/covid-mapper.png": "/static/media/covid-mapper.d48f5ff5.png",
+    "static/media/day_one.png": "/static/media/day_one.26f3e685.png",
+    "static/media/electionsAI.png": "/static/media/electionsAI.1a5009c9.png",
     "static/media/hccg.png": "/static/media/hccg.0ac6567d.png",
     "static/media/headshot.jpg": "/static/media/headshot.9b5450dd.jpg",
     "static/media/hodp-article.png": "/static/media/hodp-article.658a016f.png",
     "static/media/hodp-website.png": "/static/media/hodp-website.2b8cf9a7.png",
     "static/media/research.png": "/static/media/research.23446e4e.png",
+    "static/media/thesis_cropped.jpeg": "/static/media/thesis_cropped.2b5bf225.jpeg",
     "static/media/this-site.png": "/static/media/this-site.103103f3.png",
     "static/media/vm-site.png": "/static/media/vm-site.9572941c.png",
     "static/media/wics-portal.png": "/static/media/wics-portal.aa33697d.png",
@@ -25,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9c9c41ef.js",
-    "static/js/2.14f0be9a.chunk.js",
+    "static/js/2.3f4bf12d.chunk.js",
     "static/css/main.c7e4653f.chunk.css",
-    "static/js/main.a00d3337.chunk.js"
+    "static/js/main.a5a8abdd.chunk.js"
   ]
 }
