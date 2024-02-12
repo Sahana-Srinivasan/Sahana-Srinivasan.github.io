@@ -1,14 +1,10 @@
 import React from 'react';
-import { Card, Grid, Image, Container } from "theme-ui";
-import { useState } from "react";
-import theme from './theme';
+import { Grid, Image, Container } from "theme-ui";
 import './Profile.css';
-import headshot from './headshot.jpg'
-import Accordion from './Accordion.js'
+import headshot from './thesis_cropped.jpeg'
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Campus from './Campus'
-import Projects from './Projects'
+import Nav from './Nav'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -25,10 +21,19 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: theme.typography.fontWeightLight,
     color: 'black',
   },
+  navRegular: {
+    fontSize: theme.typography.pxToRem(18),
+    fontWeight: theme.typography.fontWeightLight,
+    color: 'black',
+    '&:hover': {
+      color: '#A51C30'
+    }
+    
+  },
   navHighlight: {
     fontSize: theme.typography.pxToRem(18),
     fontWeight: "600",
-    color: 'white',
+    color: '#A51C30',
   },
   text: {
     fontSize: theme.typography.pxToRem(20),
@@ -36,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     color: 'black',
   },
   names: {
-    fontSize: theme.typography.pxToRem(36),
+    fontSize: theme.typography.pxToRem(33),
     fontWeight: "600",
     color: 'black',
   },
@@ -52,51 +57,12 @@ function Profile(props) {
   const classes = useStyles();
 
   
-  const subjects = [["Home", "home"], ["Experience", "experience"], ["On Campus", "on-campus"], ["Projects", "projects"], ["Interests", "interests"]];
-  const [activeCategory, setActiveCategory] = useState("Home");
-  const cards = 
-      subjects.map((subject) => {
-          const included = activeCategory === subject[0];
-          return (
-            <a href={"#" + subject[1]}>
-              <Card
-                  variant="list"
-                  sx={{
-                  backgroundColor: included ? theme.colors.primary : theme.colors.background,
-                  color: included ? theme.colors.background : theme.colors.black ,
-                  alignContent: 'right',
-                  wordWrap: "break-word",
-                  "&:hover": {
-                      bg: included ? theme.colors.primary : theme.colors.seocndary,
-                  },
-                  }}
-                  onClick={() => {
-                      setActiveCategory(subject[0]);
-                  }}
-                  >
-                  <div>
-                    <Typography className={included ? classes.navHighlight : classes.position }>
-                      {subject[0]}
-                    </Typography>
-                  </div>
-              </Card>
-            </a>
-          );
-      });
   return(
     <Container>
     <div>
-      <Grid gap={5} columns={[1, 1, "1fr 3fr", "1fr 4fr"]}>
-          <div
-            sx={{ display: ["none", "initial", "initial", "initial"], mt: "40px" }}
-          >
-            <div className="content-desktop">
-              <br></br>
-              <div className="nav-items">
-                {cards}
-              </div>
-            </div>
-          </div>
+      {/*<Grid gap={5} columns={[1, 1, "1fr 3fr", "1fr 4fr"]}>*/}
+
+          <Nav/>
           <div className="main">
             <div id="home">
               <Grid gap={5} columns={[1, "1fr 1fr", "1fr 1fr", "3fr 7fr"]}>
@@ -113,83 +79,25 @@ function Profile(props) {
                   </Typography>
                   <br></br>
                   <Typography className={classes.text}>
-                  Hi! I'm a rising senior at Harvard studying computer science and government. I'm interested in product management, tech policy, fairness, and responsible/social impact/public interest tech.
+                  Hi! I'm passionate about building safe and ethical technology that helps people, leveraging policy and the product development process.
                   <br></br>
                   <br></br>
-                  Right now I'm building a new member/alumni portal for Harvard Women in Computer Science and interning as a PM at Microsoft.
+                  I'm currently a product manager at <a id="social-link" href="https://www.schmidtfutures.org/">Schmidt Futures</a> in the <a id="social-link" href="https://www.schmidtfutures.org/our-work-old/technologists-for-global-transformation/">Technologists for Global Transformation</a> program, a rotational fellowship for technologists working in social impact. I formerly worked at Microsoft and graduated from Harvard with a bachelor's in computer science and government, where I focused on fairness and privacy.
                   <br></br>
                   <br></br>
                   Find me on&nbsp;
                     <a id="social-link" href="https://www.github.com/sahana-srinivasan">GitHub</a> and&nbsp;
                     <a id="social-link" href="https://www.linkedin.com/in/sahana-srinivasan-009">Linkedin</a>, or by&nbsp;
-                    <a id="social-link" href="mailto:sahanasrinivasan@college.harvard.edu">email</a>.
+                    <a id="social-link" href="mailto:sahanas009@gmail.com">email</a>.
                   </Typography>
+                  <br></br>
                   <br></br>
                 </div>
               </Grid>
             </div>
-            <div id="experience">
-              <br></br>
-              <br></br>
-              <div className="section-title">
-                <Typography className={classes.section}>
-                  Work Experience
-                </Typography>
-              </div>
-              <br></br>
-              <div id="experience-content">
-                <Accordion/>
-              </div>
-              <br></br>
-              <br></br>
-            </div>
-            <div id="on-campus">
-            <br></br>
-              <div className="section-title">
-                <Typography className={classes.section}>
-                  On Campus
-                </Typography>
-              </div>
-              <br></br>
-              <Campus/>
-              <br></br>
-              <br></br>
-            </div>
-            <div id="projects">
-            <br></br>
-              <div className="section-title">
-                <Typography className={classes.section}>
-                  Selected Projects
-                </Typography>
-              </div>
-              <br></br>
-              <Projects/>
-              <br></br>
-              <br></br>
-            </div>
-            <div id="interests">
-              <div className="section-title">
-                <Typography className={classes.section}>
-                  Interests
-                </Typography>
-              </div>
-              <br></br>
-              <Typography className={classes.position}>
-                Here are some other things I've been up to recently!
-                <ul>
-                  <li>Cooking more! Trying out new recipes and trying to chop faster</li>
-                  <li>Playing lots of Skribbl, Gartic phone, and codenames </li>
-                  <li>Playing the NYT Spelling Bee and Letterboxed literally every day</li> 
-                  <li>Watching stand-up comedy specials</li>
-                  <li>Watching the Great British Bake-Off</li>
-                </ul>
-                <br></br>
-                <br></br>
-              </Typography>
-            </div>
           </div>
           <div className="buffer"></div>
-      </Grid>
+      {/*</Grid>*/}
     </div>
     </Container>
   );

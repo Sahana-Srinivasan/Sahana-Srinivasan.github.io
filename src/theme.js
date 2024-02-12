@@ -1,3 +1,5 @@
+import { ThemeContext } from "@emotion/core";
+
 // example theme.js
 export default {
   fonts: {
@@ -45,11 +47,11 @@ export default {
   cards: {
     list: {
       borderRadius: 2,
-      backgroundColor: "primary",
+      color: "text",
+      backgroundColor: "background",
       padding: 3,
       "&:hover": {
-        bg: "secondary",
-      },
+        color: "primary"      },
     },
     primary: {
       padding: 20,
